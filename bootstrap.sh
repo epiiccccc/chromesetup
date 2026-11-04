@@ -2,7 +2,7 @@
 set -Eeuo pipefail
 
 # Replace this URL with your public GitHub repository.
-REPO_TARBALL="https://github.com/epiiccccc/chrome-setup/archive/refs/heads/main.tar.gz"
+REPO_TARBALL="https://github.com/epiiccccc/chromesetup/archive/refs/heads/tar.gz"
 TMP_DIR="$(mktemp -d)"
 trap 'rm -rf "$TMP_DIR"' EXIT
 
