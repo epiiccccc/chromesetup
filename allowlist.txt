@@ -1,2 +1,3 @@
 # Voeg hieronder één apparaat-ID per regel toe.
 # Voorbeeld: 123e4567-e89b-12d3-a456-426614174000
+11bb55a0-777a-424c-9443-a1bf3b5912cf
