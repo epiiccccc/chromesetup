@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+CHECK="$HOME/.local/share/chrome-setup/device-check.sh"
+
+if ! "$CHECK"; then
+  echo "Chrome starten geweigerd. Controleer jouw allowlist en internetverbinding."
+  exit 1
+fi
+
+exec /usr/bin/google-chrome "$@"
